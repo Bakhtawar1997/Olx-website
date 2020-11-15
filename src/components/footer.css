@@ -1,0 +1,86 @@
+.containerss
+{    
+    width: 100%;
+    display: flex ;
+    flex-direction: row;
+}
+ul li{
+    list-style: none;
+}
+.my-2{
+    font-style: bold;
+   display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 40px; 
+ padding: 2px;
+}
+
+.icon{
+    font-size: 14px;
+    color: rgb(192,192,192);
+    border-radius: 50%;
+    border: 2px solid rgb(192,192,192);
+    text-align: center;
+    padding: 10px; 
+    min-width: 40px; 
+}
+li button{
+    background-color: black;
+   color: blanchedalmond;
+}
+li i {
+    color: white;
+}
+.set{
+    font-size: 20px;    
+}
+.up{
+    font-size: 10px;
+    color: white;
+}
+.igm{
+    padding-top: 25px;
+    padding-left: 6px;
+   /* padding: 4px; */
+}
+.setup{
+    width: 100%;
+    padding-left: 40px;
+}
+.flex{
+    display: flex;
+    padding-left: 30px;
+    flex-direction: row;
+    
+}
+.hh{
+    color: black;
+    margin-left:4% ;
+    font-weight: bold;
+    
+}
+.hset{
+   color:gray;
+   padding-left: 20px ;
+}
+
+.bd{
+    font-weight: bold;
+    padding-top: 19%;
+}
+.tytt{
+    margin-top: 15px;
+    margin-left: 6px;
+   
+}
+.buttom{
+    background-color:#117A65 ;
+    width: 100%;
+    color: white;
+    display: flex;
+    padding-left: 40px;
+    flex-direction: row;
+}
+.rights{
+    padding-left: 44%;
+}

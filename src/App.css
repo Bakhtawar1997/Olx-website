@@ -1,38 +1,209 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.changing{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-size: 36px;
+}
+.dd-btn{
+display: flex;
+font-size: 20px;
+font-style: bold;
+padding-top: 2px;
+}
+
+
+
+.input-icons i { 
+position: absolute; 
+} 
+
+.input-icons { 
+width: 100px; 
+margin-bottom: 10px; 
+} 
+
+.fww { 
+padding: 10px; 
+/* min-width: 40px;  */
+color: black;
+} 
+
+.input-field { 
+width: 250%; 
+padding: 10px; 
+text-align: center;
+border-color: black;
+height: 45px;
+color: gray;
+font-size: 17px;
+font-style: bold;
+
+}
+.side{
+left: 210px;
+top: 5px;
+color: black;
+}
+.tet{
+color: blue;
+font-size: bold;
+}
+.mnm{
+width: 100%;
+margin-bottom: 6px;
+
+}
+/* .input-group{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: darkblue;
+left: 20%;
+margin-right: 50px;
+
+} */
+
+.tyt{
+height: 45px;
+
+
+}
+.ste{
+display: flex;
+flex-direction: row;
+margin: 0 40px auto 20px;
+
+}
+.home{
+font-weight: bold;
+padding-left: 90px;
+text-decoration: underline;
+text-decoration-color: black;
+/* margin-right: 140px; */
+
+
+}
+.dgn{
+  position: relative;
+  width: 100px;
+  height: 50px;
+ background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+ border-radius: 50px;
+ border: 0px solid;
+ outline: none;
+ /* top: 40%;
+ left: 40%;
+ transform: translate(-40%, -40%); */
+
+}
+button .logn{
+  position: absolute;
+  top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%); 
+ width: 90px;
+ height: 35px;
+ text-align: center;
+  background: white;
+  color: black;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  border-radius: 50px;
+
+}
+.sell{
+ margin: 0 15px;
+}
+.plu{
+ padding: 4px;
+ padding-top:9px ;
+ text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (min-width: 320px) {
+.input-group {
+    width: 100;
+  float: left;
+
+}
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.wtd{
+  width: 850px;
+  padding-left: 150px;
+  height: 60px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+.ipu{
+  top: 5px;
+  border-color: black;
+  height: 43px;
+}
+.input-group-text{
+  margin-top: 4px;
+  height: 45px;
+  width: 50px;
+ 
+  
+}
+
+.card{
+  height: 17rem;
+  top: 5px;
+ margin-bottom: 15px;
+ 
+ 
+}
+.text-muted{
+  bottom: 1rem;
+}
+.heading{
+  font-weight: bold;
+}
+
+
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 40%;
+}
+.btn_hidden{
+  display: none;
+}
+.margin{
+  color: rgb(247, 11, 11);
+}
+.do{
+  background-color: brown;
+}
+
+.center{
+ padding-top: 9px;
+ display: block;
+margin-left: auto;
+margin-right: auto;
+  /* padding-left: 210px; */
+} 
+.load{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  background-color: white;
+  font-weight: bold;
+ text-align: center;
+ height: 50px;
+
+
+}
+.load{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  background-color: white;
+  font-weight: bold;
+ text-align: center;
+ height: 50px;
+
+
 }

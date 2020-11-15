@@ -1,0 +1,35 @@
+.containerss{
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+  
+  /* Style the counter cards */
+  
+.card{
+    height: 17rem;
+    top: 5px;
+   margin-bottom: 15px;
+   
+   
+}
+.text-muted{
+    bottom: 1rem;
+}
+.heading{
+    font-weight: bold;
+}
+
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 40%;
+}
+
+ 
